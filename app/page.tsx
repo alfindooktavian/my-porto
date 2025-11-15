@@ -122,10 +122,9 @@ export default function Home() {
 </section>
 
 
-{/* About */}
 <section
   id="about"
-  className="min-h-screen flex justify-center items-center px-6 md:px-10"
+  className="pt-20 md:pt-0 min-h-screen flex justify-center items-center px-6 md:px-10"
 >
   <div className="w-full max-w-6xl flex flex-col md:flex-row items-center justify-between gap-16">
 
@@ -200,14 +199,16 @@ export default function Home() {
 
 {/* Skills */}
 <section
-      id="skills"
-      className="
-        min-h-screen 
-        flex flex-col justify-center items-center
-        px-6 md:px-20
-        text-center
-      "
-    >
+  id="skills"
+  className="
+    pt-20 pb-16
+    md:pt-32 md:pb-32
+    min-h-screen 
+    flex flex-col justify-center items-center
+    px-6 md:px-20
+    text-center
+  "
+>
       <h2
         className="
           text-4xl font-bold mb-12
@@ -353,10 +354,16 @@ export default function Home() {
 
 
 
-{/* Contact */}
 <section
   id="contact"
-  className="min-h-screen flex justify-center items-center px-6 md:px-20 bg-transparent"
+  className="
+    pt-20 pb-16
+    md:pt-32 md:pb-32
+    min-h-screen 
+    flex justify-center items-center
+    px-6 md:px-20
+    bg-transparent
+  "
 >
   <div className="w-full max-w-5xl bg-gray-800/60 backdrop-blur-md border border-white/10 rounded-2xl shadow-lg p-6 md:p-10 grid grid-cols-1 md:grid-cols-2 gap-10">
     
